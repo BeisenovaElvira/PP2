@@ -28,7 +28,7 @@ namespace Task_2
             {
                 string n;
                 string k;
-                Student s = new Student(n = Console.ReadLine("name:"), k = Console.ReadLine(id:));//Вводим имя и id студента          
+                Student s = new Student(n = Console.ReadLine(), k = Console.ReadLine());//Вводим имя и id студента          
                 Console.WriteLine("Enter the year of study");//Вводим год обечение на консоль 
                 int y = int.Parse(Console.ReadLine());
                 s.PrintInfo();
